@@ -11,7 +11,7 @@ def MakeUrl():
     "motors-desktop-wallpapers", "movies-desktop-wallpapers", "music-desktop-wallpapers", "nature-desktop-wallpapers", 
     "seasons-desktop-wallpapers",    "space-desktop-wallpapers", "sports-desktop-wallpapers", "travel-desktop-wallpapers", 
     "vintage-desktop-wallpapers"]
-    csvdata = pd.read_csv("data/data.csv")
+    csvdata = pd.read_csv("src/data/data.csv")
     
     random_category = choice(categories)
     category_data, maxpage_data = list(csvdata["category"]), list(csvdata["maxpages"])
