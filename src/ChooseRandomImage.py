@@ -1,5 +1,6 @@
 from requests import get
 from bs4 import BeautifulSoup
+from random import choice
 
 def ChooseRandomImage(url):
     page = get(url).content
