@@ -11,7 +11,7 @@ def UpdateMaxPages():
     "motors-desktop-wallpapers", "movies-desktop-wallpapers", "music-desktop-wallpapers", "nature-desktop-wallpapers", 
     "seasons-desktop-wallpapers",    "space-desktop-wallpapers", "sports-desktop-wallpapers", 
     "travel-desktop-wallpapers", "vintage-desktop-wallpapers"]
-    data = open("data/data.csv", "w")
+    data = open("src/data/data.csv", "w")
     data.write("category,maxpages\n")
 
     for x in categories:
