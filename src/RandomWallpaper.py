@@ -1,8 +1,8 @@
-from UpdateMaxPages import UpdateMaxPages
-from MakeUrl import MakeUrl
-from ChooseRandomImage import ChooseRandomImage
-from DownloadImage import DownloadImage
-from ChangeBackground import ChangeBackground
+from src.UpdateMaxPages import UpdateMaxPages
+from src.MakeUrl import MakeUrl
+from src.ChooseRandomImage import ChooseRandomImage
+from src.DownloadImage import DownloadImage
+from src.ChangeBackground import ChangeBackground
 from time import sleep
 
 def RandomWallpaper():
