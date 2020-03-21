@@ -12,7 +12,7 @@ def UpdateMaxPages():
     "seasons-desktop-wallpapers",    "space-desktop-wallpapers", "sports-desktop-wallpapers", 
     "travel-desktop-wallpapers", "vintage-desktop-wallpapers"]
     data = open("data/data.csv", "w")
-    data.write("category, maxpages\n")
+    data.write("category,maxpages\n")
 
     for x in categories:
         page = int(BeautifulSoup(get("http://wallpaperswide.com/{}".format(x)).content, "html.parser").find_all("div", class_="pagination")[-1].find_all("a")[-2].text)
